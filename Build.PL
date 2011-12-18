@@ -5,7 +5,7 @@ use Module::Build;
  
 my $build = Module::Build->new(
     dist_author          => 'Jonas B. Nielsen (JONASBN)',
-    dist_abstract        => 'Collection of distributions to assisting in using Jenkins for continuous integration',
+    dist_abstract        => 'Collection of distributions for continuous integration using Jenkins',
     module_name          => 'Task::Jenkins', 
     license              => 'artistic',
     recursive_test_files => 1,

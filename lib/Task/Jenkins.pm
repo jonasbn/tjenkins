@@ -28,7 +28,7 @@ This documentation describes version 0.01
 
 =head1 DESCRIPTION
 
-Installation of Jenkins is beyond the scope of this distribution. Task::Jenkins
+Installation of B<Jenkins> is beyond the scope of this distribution. Task::Jenkins
 installs a collection of modules I have identified as useful in utilizing
 B<Jenkins> for I<continuous integration> of Perl distributions, applications and code.
 

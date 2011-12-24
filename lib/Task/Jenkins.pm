@@ -52,15 +52,6 @@ For a tutorial on how to get started please see: L<logicLAB Continuous Integrati
 In order to extend this very basic behaviour you can use some additional CPAN
 distributions described below.
 
-=head2 Devel::Cover
-
-Devel::Cover can be used to generate HTML coverage reports. Jenkins can visualise
-additional HTML pages generated as part of a test run, Jenkins just have to be
-told where these are located.
-
-See also L<Devel::Cover|https://metacpan.org/module/Devel::Cover>, or L<logicLAB
-Devel::Cover wiki page|http://logiclab.jira.com/wiki/display/OPEN/Devel-Cover>
-
 =head2 TAP::Formatter::JUnit
 
 Jenkins can visualize reports via it's own interface if these reports are based
@@ -68,9 +59,67 @@ on JUnit report format. TAP::Formatter can output test reports in this format
 using TAP:Formatter::JUnit, so if you are using Test::Harness you can get
 beautiful reports using this distribution in your Jenkins setup.
 
+=over
+
+=item 1 tick the 'Publish JUnit test result report
+
+=item 2 specify the 'Test reports XMLs' as '*-junit.xml' (you have to match the pattern you specify in you test suite execution string, see above)
+
+=back
+
+Example:
+
+    % ./Build test merge=1 tap_harness_args=formatter_class=TAP::Formatter::JUnit > jenkins-${JOB_NAME}-${BUILD_NUMBER}-junit.xml
+
 See also L<TAP::Formatter::JUnit|https://metacpan.org/module/TAP::Formatter::JUnit>,
 or L<logicLAB TAP::Formatter::JUnit wiki page
 |http://logiclab.jira.com/wiki/display/OPEN/TAP-Formatter-JUNit>
+
+=head2 App::Prove
+
+App::Prove is a marvellous tool for initiating execution of a test suite. The
+reason however it is listed in Task::Jenkins is that it addressed a bug where
+timings on a test run was not showing correctly in the report.
+
+Example:
+
+    % prove --lib --timer --formatter=TAP::Formatter::JUnit t > jenkins-${JOB_NAME}-${BUILD_NUMBER}-junit.xml
+
+See B<TAP::Formatter::JUnit> above.
+
+See also L<App::Prove|https://metacpan.org/module/App::Prove>, or L<logicLAB
+App::Prove wiki page|http://logiclab.jira.com/wiki/display/OPEN/App-Prove>
+
+=head2 Devel::Cover
+
+Devel::Cover can be used to generate HTML coverage reports. Jenkins can visualise
+additional HTML pages generated as part of a test run, Jenkins just have to be
+told where these are located.
+
+=over
+
+=item 1 tick 'Publish HTML reports'
+
+=item 2 specify the location:
+
+=over
+
+=item * HTML directory to archive: 'cover_db', Devel::Cover default
+
+=item * Index page(s): 'coverage.html', Devel::Cover default
+
+=item * Report title: 'Coverage Report', something identifiable
+
+=back
+
+=back
+
+Example:
+
+    % ./Build testcover
+
+See also L<Devel::Cover|https://metacpan.org/module/Devel::Cover>, or L<logicLAB
+Devel::Cover wiki page|http://logiclab.jira.com/wiki/display/OPEN/Devel-Cover>
 
 =head1 SEE ALSO
 

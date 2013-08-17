@@ -5,6 +5,14 @@ $Id$
 Project Change Log:
 http://logiclab.jira.com/browse/TJENKINS#selectedTab=com.atlassian.jira.plugin.system.project%3Achangelog-panel
 
+HEAD
+
+- Added changes.t automatic assertion of the integrity of the Changes file, 
+ see also TJENKINS-5 [TJENKINS-3]
+
+  https://logiclab.jira.com/browse/TJENKINS-3
+
+
 0.02 2013-07-26
 
 - Fixed up Changes file as part of my Questhub quest adhering to the standard

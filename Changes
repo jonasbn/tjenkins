@@ -9,6 +9,8 @@ HEAD
 
 - Added strict and warnings so satisfy CPANTS
 
+- Added Perl minimum version (v5.6.0) located by Perl::MinimumVersion and required by CPANTS
+
 - Added changes.t automatic assertion of the integrity of the Changes file, 
  see also TJENKINS-5 [TJENKINS-3]
 

@@ -4,6 +4,7 @@ package Task::Jenkins;
 
 use strict;
 use warnings;
+use 5.006; #perl version 5.6.0
 
 our $VERSION = '0.02';
 

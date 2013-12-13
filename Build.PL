@@ -1,7 +1,9 @@
 # $Id$
 
 use strict;
+use warnings;
 use Module::Build;
+use 5.006; #perl version 5.6.0
 
 my $build = Module::Build->new(
     dist_author => 'Jonas B. Nielsen (JONASBN)',
@@ -17,6 +19,7 @@ my $build = Module::Build->new(
         'TAP::Formatter::JUnit' => '0',
         'Devel::Cover'          => '0',
         'App::Prove'            => '0',
+        'perl'                  => '5.6.0',
     },
     meta_merge => {
         resources => {

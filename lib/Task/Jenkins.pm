@@ -2,6 +2,9 @@ package Task::Jenkins;
 
 # $Id$
 
+use strict;
+use warnings;
+
 our $VERSION = '0.02';
 
 1;
@@ -16,7 +19,7 @@ Task::Jenkins - collection of distributions for continuous integration using Jen
 
 =head1 VERSION
 
-This documentation describes version 0.01
+This documentation describes version 0.02
 
 =head1 SYNOPSIS
 

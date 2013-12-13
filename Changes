@@ -7,6 +7,8 @@ http://logiclab.jira.com/browse/TJENKINS#selectedTab=com.atlassian.jira.plugin.s
 
 HEAD
 
+- Added strict and warnings so satisfy CPANTS
+
 - Added changes.t automatic assertion of the integrity of the Changes file, 
  see also TJENKINS-5 [TJENKINS-3]
 

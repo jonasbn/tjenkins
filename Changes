@@ -7,7 +7,11 @@ http://logiclab.jira.com/browse/TJENKINS#selectedTab=com.atlassian.jira.plugin.s
 
 HEAD
 
-- Added strict and warnings so satisfy CPANTS
+- Added Test::Kwalitee test
+
+- Specified github as repository
+
+- Added strict and warnings to satisfy CPANTS
 
 - Added Perl minimum version (v5.6.0) located by Perl::MinimumVersion and required by CPANTS
 

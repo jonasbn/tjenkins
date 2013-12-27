@@ -156,12 +156,13 @@ http://logiclab.jira.com/wiki/display/OPEN/Module-Build>
 
 =head1 COPYRIGHT
 
-Task::Jenkins is (C) by Jonas B. Nielsen, (jonasbn) 2011
+Task::Jenkins is (C) by Jonas B. Nielsen, (jonasbn) 2011-2013
 
 =head1 LICENSE
 
-Task::Jenkins is released under the artistic license
+Task::Jenkins is released under the Artistic License 2.0
 
-The distribution is licensed under the Artistic License, as specified by the Artistic file in the standard perl distribution (http://www.perl.com/language/misc/Artistic.html).
+The distribution is licensed under the Artistic License 2.0, 
+as specified by the license file included in this distribution.
 
 =cut

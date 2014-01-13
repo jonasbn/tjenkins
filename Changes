@@ -5,7 +5,7 @@ $Id$
 Project Change Log:
 http://logiclab.jira.com/browse/TJENKINS#selectedTab=com.atlassian.jira.plugin.system.project%3Achangelog-panel
 
-HEAD
+0.03 2014-01-13
 
 - Added Test::Kwalitee test
 

@@ -3,7 +3,7 @@ NAME
     using Jenkins
 
 VERSION
-    This documentation describes version 0.02
+    This documentation describes version 0.03
 
 SYNOPSIS
         % perl Build.PL

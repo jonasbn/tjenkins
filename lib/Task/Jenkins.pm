@@ -156,7 +156,7 @@ http://logiclab.jira.com/wiki/display/OPEN/Module-Build>
 
 =head1 COPYRIGHT
 
-Task::Jenkins is (C) by Jonas B. Nielsen, (jonasbn) 2011-2013
+Task::Jenkins is (C) by Jonas B. Nielsen, (jonasbn) 2011-2014
 
 =head1 LICENSE
 

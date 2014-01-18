@@ -10,7 +10,7 @@ my $build = Module::Build->new(
     dist_abstract =>
         'Collection of distributions for continuous integration using Jenkins',
     module_name          => 'Task::Jenkins',
-    license              => 'artistic',
+    license              => 'artistic_2',
     recursive_test_files => 1,
     create_readme        => 1,
     create_makefile_pl   => 'traditional',

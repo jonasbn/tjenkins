@@ -5,7 +5,21 @@ $Id$
 Project Change Log:
 http://logiclab.jira.com/browse/TJENKINS#selectedTab=com.atlassian.jira.plugin.system.project%3Achangelog-panel
 
+0.04 2014-01-18
+
+- Maintenance release, update not required
+
+- Updated licence information in Build.PL
+
+- Added Test::Kwalitee::Extra test in attempt to address issue described in
+  issue TJENKINS-4, issue was reported by CPAN testers 
+
+  https://logiclab.jira.com/browse/TJENKINS-4
+  
+
 0.03 2014-01-13
+
+- Maintenance release, update not required
 
 - Added Test::Kwalitee test
 
@@ -22,6 +36,8 @@ http://logiclab.jira.com/browse/TJENKINS#selectedTab=com.atlassian.jira.plugin.s
 
 
 0.02 2013-07-26
+
+- Maintenance release, update not required
 
 - Fixed up Changes file as part of my Questhub quest adhering to the standard
   described in: CPAN::Changes::Spec [TJENKINS-5]

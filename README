@@ -3,7 +3,7 @@ NAME
     using Jenkins
 
 VERSION
-    This documentation describes version 0.03
+    This documentation describes version 0.04
 
 SYNOPSIS
         % perl Build.PL
@@ -110,7 +110,7 @@ AUTHOR
     *   Jonas B. Nielsen (jonasbn), "<jonasbn@cpan.org>"
 
 COPYRIGHT
-    Task::Jenkins is (C) by Jonas B. Nielsen, (jonasbn) 2011-2013
+    Task::Jenkins is (C) by Jonas B. Nielsen, (jonasbn) 2011-2014
 
 LICENSE
     Task::Jenkins is released under the Artistic License 2.0

@@ -16,10 +16,11 @@ my $build = Module::Build->new(
     create_makefile_pl   => 'traditional',
     build_requires       => { 'Module::Build' => '0', },
     requires             => {
-        'TAP::Formatter::JUnit' => '0',
-        'Devel::Cover'          => '0',
-        'App::Prove'            => '0',
-        'perl'                  => '5.6.0',
+        'TAP::Formatter::JUnit'        => '0',
+        'Devel::Cover'                 => '0',
+        'App::Prove'                   => '0',
+        'perl'                         => '5.6.0',
+        'Devel::Cover::Report::Clover' =>  '0',
     },
     meta_merge => {
         resources => {

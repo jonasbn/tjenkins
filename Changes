@@ -5,7 +5,9 @@ $Id$
 Project Change Log:
 http://logiclab.jira.com/browse/TJENKINS#selectedTab=com.atlassian.jira.plugin.system.project%3Achangelog-panel
 
-HEAD
+0.05 2014-01-27
+
+- Feature release, update recommended - if you want to get more out of your CI ;-)
 
 - Added requirement for Module::Build 0.40 as configure_requires as 
   specified by Module::Build itself

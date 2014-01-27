@@ -125,7 +125,21 @@ Example:
 See also L<Devel::Cover|https://metacpan.org/module/Devel::Cover>, or L<logicLAB
 Devel::Cover wiki page|http://logiclab.jira.com/wiki/display/OPEN/Devel-Cover>
 
+=head2 Devel::Cover::Report::Clover
+
+Jenkins has a plugin for visualization of Clover reports. Devel::Cover can output
+Clover reports which integrate with this facility.
+
 =head1 SEE ALSO
+
+The below section lists resources of interest to this distribution and use of Jenkins.
+
+In addition to what is used in combination with the Perl distributions used in this 
+distribtion, Jenkins also has a Perl::Critic compatible plugin named 'Violations'.
+
+Using Perl::Critic is important, but not essential in CI, so I have chosen not to 
+specify Perl::Critic as a part of this distribution for now, but I can only 
+recommended it and this standpoint might change in the future.
 
 =over
 
@@ -143,6 +157,12 @@ http://logiclab.jira.com/wiki/display/OPEN/Continuous+Integration>
 http://logiclab.jira.com/wiki/display/OPEN/Module-Build>
 
 =item * L<Test::Harness|https://metacpan.org/module/Test::Harness>
+
+=item * L<Jenkins HTML Publisher Plugin|https://wiki.jenkins-ci.org/display/JENKINS/HTML+Publisher+Plugin>, for use with Devel::Cover
+
+=item * L<Jenkins Clover Plugin|https://wiki.jenkins-ci.org/display/JENKINS/Clover+Plugin>, for use with Devel::Cover
+
+=item * L<Jenkins Violations Plugin|https://wiki.jenkins-ci.org/display/JENKINS/Violations>, for use with Perl::Critic. 
 
 =back
 

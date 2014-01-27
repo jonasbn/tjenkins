@@ -93,7 +93,23 @@ DESCRIPTION
 
     See also <Devel::Cover>, or <logicLAB Devel::Cover wiki page>
 
+  Devel::Cover::Report::Clover
+    Jenkins has a plugin for visualization of Clover reports. Devel::Cover
+    can output Clover reports which integrate with this facility.
+
 SEE ALSO
+    The below section lists resources of interest to this distribution and
+    use of Jenkins.
+
+    In addition to what is used in combination with the Perl distributions
+    used in this distribtion, Jenkins also has a Perl::Critic compatible
+    plugin named 'Violations'.
+
+    Using Perl::Critic is important, but not essential in CI, so I have
+    chosen not to specify Perl::Critic as a part of this distribution for
+    now, but I can only recommended it and this standpoint might change in
+    the future.
+
     *   <Jenkins>
 
     *   logicLAB Jenkins wiki page
@@ -105,6 +121,12 @@ SEE ALSO
     *   logicLAB Module::Build wiki page
 
     *   <Test::Harness>
+
+    *   <Jenkins HTML Publisher Plugin>, for use with Devel::Cover
+
+    *   <Jenkins Clover Plugin>, for use with Devel::Cover
+
+    *   <Jenkins Violations Plugin>, for use with Perl::Critic.
 
 AUTHOR
     *   Jonas B. Nielsen (jonasbn), "<jonasbn@cpan.org>"

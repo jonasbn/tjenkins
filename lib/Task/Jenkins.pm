@@ -6,7 +6,7 @@ use strict;
 use warnings;
 use 5.006; #perl version 5.6.0
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 1;
 

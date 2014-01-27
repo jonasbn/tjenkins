@@ -10,8 +10,7 @@ HEAD
 - Added requirement for Module::Build 0.40 as configure_requires as 
   specified by Module::Build itself
 
-
-- Add Devel::Cover::Report::Clover, providing parsing of Devel::Cover
+- Added Devel::Cover::Report::Clover, providing parsing of Devel::Cover
   report as in clover format [TJENKINS-5]
 
   https://logiclab.jira.com/browse/TJENKINS-5

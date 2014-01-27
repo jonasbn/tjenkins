@@ -20,7 +20,7 @@ Task::Jenkins - collection of distributions for continuous integration using Jen
 
 =head1 VERSION
 
-This documentation describes version 0.04
+This documentation describes version 0.05
 
 =head1 SYNOPSIS
 

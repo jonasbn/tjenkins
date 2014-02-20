@@ -54,10 +54,10 @@ svn-commit\.tmp
 spikes
  
 # Avoid OSX specific files
-.DS_Store
+\.DS_Store
  
 # Avoid Jenkins generated JUnit reports
 junit-*\.xml
 
 # Travis github integration file
-\.travis.yml
+\.travis\.yml

@@ -58,3 +58,6 @@ spikes
  
 # Avoid Jenkins generated JUnit reports
 junit-*\.xml
+
+# Travis github integration file
+\.travis.yml
